@@ -15,3 +15,8 @@ while read -r repo; do git clone "https://github.com/$repo.git"; done < <(cat gh
 while read -r repo; do git clone "https://github.com/$repo.git"; done < <(gh repos | grep -oE 'Kaplan-Singapore/.+\s+')
 ```
 
+## to search for a key word in certain file name
+```
+find "/home/timsamanchi/p/kaplan" -type f -name "*.tfvars" | grep 'prd'
+```
+
