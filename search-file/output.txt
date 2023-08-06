@@ -1,0 +1,22 @@
+
+#prod_fqdn               = "kplusonline-vle.eu-central-1.prd.kplusonline-vle.klg-emea-prd.aws.kapintdc.com"
+prod_fqdn                    = "online.kaplaninternational.com"
+#prod_fqdn = "murdoch-enrolment.kaplan.com.sg" # For golive prod_fqdn will need to be present and murdoch-enrolment-ksg-win_public_fqdn removed!
+prod_fqdn                = "www.takekite.com"
+ket_prod_fqdn        = "www.kaplanenglishtest.com"
+prod_fqdn = "flywire.kaplan.com.sg"
+prod_fqdn = "www.kaplan-living.com"
+prod_fqdn = "pathways.kaplaninternational.com"
+prod_fqdn = "*.kaplanpathways.com"
+prod_fqdn = "careers.kaplaninternational.com"
+prod_fqdn = "assetlibs.kaplaninternational.com"
+prod_fqdn = "prod-hmahaww.kapintdc.com"
+prod_fqdn = "apply.kaplaninternational.com"
+prod_fqdn = "online.liverpool.ac.uk" # For golive prod_fqdn will need to be present and liverpool-wp_public_fqdn removed!
+#prod_fqdn               = "alpadia-vle.eu-central-1.prd.alpadia-vle.klg-emea-prd.aws.kapintdc.com"
+prod_fqdn                = "online.alpadia.com"
+# prod_fqdn commented out until go-live (https://projectjira.piksel.com/jira/browse/KAPLANPM-967)
+prod_fqdn = "prod-ekilpww.kapintdc.com"
+prod_fqdn = "study.kaplaninternational.com"
+prod_fqdn = "payments.kaplanpathways.com"
+prod_fqdn = "online.essex.ac.uk" # For golive prod_fqdn will need to be present and essex-wp_public_fqdn removed!
