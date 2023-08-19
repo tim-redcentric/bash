@@ -1,0 +1,1 @@
+while read -r repo; do git clone "https://github.com/$repo.git"; done < <(gh repos | grep -oE 'Kaplan-Singapore/.+\s+')
